@@ -2,4 +2,4 @@ sudo dpkg -i libreadline7_7.0-3_amd64.deb bc_1.07.1-2_amd64.deb build-essential_
 cd rtl8821ce-master/;
 sudo make all;
 sudo make install;
-sudo modprobe -a 8821c
+sudo modprobe -a 8821ce
